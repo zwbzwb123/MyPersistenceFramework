@@ -1,0 +1,6 @@
+<mapper namespace="com.zwb.UserMapper">
+
+    <select id="select" resultType="com.zwb.User">
+        select * from user
+    </select>
+</mapper>
